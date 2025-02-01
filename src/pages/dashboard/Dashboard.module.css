@@ -1,0 +1,44 @@
+.dashboard-container {
+  padding: 12px;
+}
+.info-board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+.info-board > div {
+  box-shadow: 2px 2px 8px #ddd;
+  padding: 10px;
+  border-radius: 10px;
+}
+.info-board__title {
+  color: #9f9898;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+.info-board__value {
+  font-size: 28px;
+}
+.info-board__icon {
+  text-align: right;
+}
+.info-board__icon > * {
+  padding: 8px;
+  color: var(--icon-color);
+  background-color: var(--icon-background-color);
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.transactions-board {
+  box-shadow: 2px 2px 8px #ddd;
+  margin-top: 2rem;
+  padding: 30px;
+}
+.transactions-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #9f9898;
+}
